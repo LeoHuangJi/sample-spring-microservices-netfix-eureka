@@ -1,0 +1,467 @@
+2025-04-18 20:56:27 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 20:56:28 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 20:56:28 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 10692 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 20:56:28 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 20:56:28 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 20:56:29 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 20:56:29 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 20:56:29 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 20:56:29 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 20:56:29 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 20:56:29 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 714 ms
+2025-04-18 20:56:29 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 20:56:29 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 20:56:29 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.534 seconds (process running for 2.633)
+2025-04-18 20:56:29 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 20:56:37 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 20:56:37 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 20:56:37 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-18 20:58:33 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 20:58:34 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 20:58:34 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 18748 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 20:58:34 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 20:58:34 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 20:58:34 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 20:58:34 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 20:58:34 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 20:58:34 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 20:58:34 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 20:58:34 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 576 ms
+2025-04-18 20:58:35 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 20:58:35 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 20:58:35 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.239 seconds (process running for 1.972)
+2025-04-18 20:58:35 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 20:58:40 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 20:58:40 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 20:58:40 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-18 21:02:15 [RMI TCP Connection(7)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-18 21:02:15 [RMI TCP Connection(7)-127.0.0.1] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-18 21:02:15 [tomcat-shutdown] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:02:15 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-18 21:02:15 [RMI TCP Connection(7)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:02:21 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 21:02:21 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 21:02:21 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 17912 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 21:02:21 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 21:02:22 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 21:02:22 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 21:02:22 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:02:22 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 21:02:22 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 21:02:22 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 21:02:22 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 606 ms
+2025-04-18 21:02:22 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:02:22 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 21:02:22 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.331 seconds (process running for 2.138)
+2025-04-18 21:02:22 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 21:02:27 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 21:02:27 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 21:02:27 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-18 21:05:24 [RMI TCP Connection(5)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-18 21:05:24 [RMI TCP Connection(5)-127.0.0.1] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-18 21:05:24 [tomcat-shutdown] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:05:24 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-18 21:05:24 [RMI TCP Connection(5)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:05:39 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 21:05:39 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 21:05:39 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 9560 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 21:05:39 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 21:05:40 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 21:05:40 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 21:05:40 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:05:40 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 21:05:40 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 21:05:40 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 21:05:40 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 602 ms
+2025-04-18 21:05:40 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:05:40 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 21:05:40 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.283 seconds (process running for 2.048)
+2025-04-18 21:05:40 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 21:05:44 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 21:05:44 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 21:05:44 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-18 21:06:37 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-18 21:06:37 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-18 21:06:37 [tomcat-shutdown] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:06:37 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-18 21:06:37 [RMI TCP Connection(4)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:06:52 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 21:06:52 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 21:06:52 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 7608 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 21:06:52 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 21:06:53 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 21:06:53 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 21:06:53 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:06:53 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 21:06:53 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 21:06:53 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 21:06:53 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 696 ms
+2025-04-18 21:06:53 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:06:53 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 21:06:53 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.508 seconds (process running for 2.519)
+2025-04-18 21:06:53 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 21:07:00 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 21:07:00 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 21:07:00 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-18 21:29:45 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 21:29:45 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 21:29:45 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 7868 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 21:29:45 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 21:29:45 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 21:29:46 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 21:29:46 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:29:46 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 21:29:46 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 21:29:46 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 21:29:46 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 596 ms
+2025-04-18 21:29:46 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:29:46 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 21:29:46 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.318 seconds (process running for 2.334)
+2025-04-18 21:29:46 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 21:30:22 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 21:30:22 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 21:30:22 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-18 21:32:17 [RMI TCP Connection(7)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-18 21:32:17 [RMI TCP Connection(7)-127.0.0.1] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-18 21:32:17 [tomcat-shutdown] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:32:17 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-18 21:32:17 [RMI TCP Connection(7)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:32:23 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 21:32:23 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 21:32:23 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 9448 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 21:32:23 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 21:32:24 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 21:32:24 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 21:32:24 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:32:24 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 21:32:24 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 21:32:24 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 21:32:24 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 586 ms
+2025-04-18 21:32:24 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:32:24 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 21:32:25 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.336 seconds (process running for 2.093)
+2025-04-18 21:32:25 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 21:33:15 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 21:33:15 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 21:33:15 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-18 21:37:44 [RMI TCP Connection(7)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-18 21:37:44 [RMI TCP Connection(7)-127.0.0.1] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-18 21:37:44 [tomcat-shutdown] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:37:44 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-18 21:37:44 [RMI TCP Connection(7)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:38:36 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 21:38:36 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 21:38:36 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 5488 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 21:38:36 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 21:38:36 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 21:38:37 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 21:38:37 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:38:37 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 21:38:37 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 21:38:37 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 21:38:37 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 699 ms
+2025-04-18 21:38:37 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 21:38:37 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 21:38:37 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.505 seconds (process running for 2.52)
+2025-04-18 21:38:37 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 21:38:42 [http-nio-8088-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 21:38:42 [http-nio-8088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 21:38:42 [http-nio-8088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-18 22:27:56 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 22:27:57 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 22:27:57 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 11680 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 22:27:57 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 22:27:57 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 22:27:57 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 22:27:58 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:27:58 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 22:27:58 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 22:27:58 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 22:27:58 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 703 ms
+2025-04-18 22:27:58 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:27:58 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 22:27:58 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.533 seconds (process running for 2.634)
+2025-04-18 22:27:58 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 22:27:59 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 22:27:59 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 22:27:59 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-04-18 22:38:30 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 22:38:31 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 22:38:31 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 10884 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 22:38:31 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 22:38:31 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 22:38:32 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 22:38:32 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:38:32 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 22:38:32 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 22:38:32 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 22:38:32 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 708 ms
+2025-04-18 22:38:32 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:38:32 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 22:38:32 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.573 seconds (process running for 2.618)
+2025-04-18 22:38:32 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 22:38:35 [http-nio-8088-exec-3] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 22:38:35 [http-nio-8088-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 22:38:35 [http-nio-8088-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-18 22:40:51 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 22:40:51 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 22:40:51 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 11856 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 22:40:51 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 22:40:52 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 22:40:52 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 22:40:52 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:40:52 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 22:40:52 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 22:40:52 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 22:40:52 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 746 ms
+2025-04-18 22:40:53 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:40:53 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 22:40:53 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.602 seconds (process running for 2.684)
+2025-04-18 22:40:53 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 22:40:54 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 22:40:54 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 22:40:54 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-18 22:41:51 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 22:41:51 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 22:41:51 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 8840 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 22:41:51 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 22:41:52 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 22:41:52 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 22:41:52 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:41:52 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 22:41:52 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 22:41:52 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 22:41:52 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 771 ms
+2025-04-18 22:41:53 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:41:53 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 22:41:53 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.607 seconds (process running for 2.646)
+2025-04-18 22:41:53 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 22:41:53 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 22:41:53 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 22:41:53 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-18 22:41:53 [http-nio-8088-exec-1] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service-default.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:41:53 [http-nio-8088-exec-1] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:41:54 [http-nio-8088-exec-2] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service-default.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:41:54 [http-nio-8088-exec-2] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:41:54 [http-nio-8088-exec-3] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service-default.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:41:54 [http-nio-8088-exec-3] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:41:55 [http-nio-8088-exec-4] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service-default.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:41:55 [http-nio-8088-exec-4] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:42:00 [http-nio-8088-exec-6] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service-default.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:42:00 [http-nio-8088-exec-6] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:42:01 [http-nio-8088-exec-5] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service-default.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:42:01 [http-nio-8088-exec-5] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:42:02 [http-nio-8088-exec-7] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service-default.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:42:02 [http-nio-8088-exec-7] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:42:02 [http-nio-8088-exec-8] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service-default.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:42:02 [http-nio-8088-exec-8] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:42:02 [http-nio-8088-exec-10] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service-default.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:42:02 [http-nio-8088-exec-10] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:42:48 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 22:42:48 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 22:42:48 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 13812 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 22:42:48 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 22:42:49 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 22:42:49 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 22:42:49 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:42:49 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 22:42:49 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 22:42:49 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 22:42:49 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 639 ms
+2025-04-18 22:42:49 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:42:49 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 22:42:49 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.342 seconds (process running for 2.15)
+2025-04-18 22:42:49 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 22:42:52 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 22:42:52 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 22:42:52 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-18 22:42:58 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-18 22:42:58 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-18 22:42:58 [tomcat-shutdown] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:42:58 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-18 22:42:58 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:43:00 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 22:43:00 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 22:43:00 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 8648 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 22:43:00 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 22:43:01 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 22:43:01 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 22:43:01 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:43:01 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 22:43:01 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 22:43:01 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 22:43:01 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 603 ms
+2025-04-18 22:43:01 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:43:01 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 22:43:01 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.281 seconds (process running for 2.054)
+2025-04-18 22:43:01 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 22:43:01 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 22:43:01 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 22:43:01 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-18 22:43:26 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-18 22:43:26 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-18 22:43:26 [tomcat-shutdown] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:43:26 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-18 22:43:26 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:43:29 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 22:43:29 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 22:43:29 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 1336 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 22:43:29 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 22:43:30 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 22:43:30 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 22:43:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:43:30 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 22:43:30 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 22:43:30 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 22:43:30 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 602 ms
+2025-04-18 22:43:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:43:30 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 22:43:30 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.301 seconds (process running for 2.036)
+2025-04-18 22:43:30 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 22:43:31 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 22:43:31 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 22:43:31 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-18 22:43:31 [http-nio-8088-exec-1] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service-default.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:43:31 [http-nio-8088-exec-1] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:43:37 [http-nio-8088-exec-2] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service-default.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:43:37 [http-nio-8088-exec-2] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:44:10 [http-nio-8088-exec-5] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service-default.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:44:10 [http-nio-8088-exec-5] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:44:18 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-18 22:44:18 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-18 22:44:18 [tomcat-shutdown] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:44:18 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-18 22:44:18 [RMI TCP Connection(4)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:44:30 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 22:44:30 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 22:44:30 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 1768 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 22:44:30 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 22:44:30 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 22:44:31 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 22:44:31 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:44:31 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 22:44:31 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 22:44:31 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 22:44:31 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 718 ms
+2025-04-18 22:44:31 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:44:31 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 22:44:31 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.584 seconds (process running for 2.656)
+2025-04-18 22:44:31 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 22:44:32 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 22:44:32 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 22:44:32 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-18 22:44:32 [http-nio-8088-exec-1] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:44:32 [http-nio-8088-exec-2] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:44:33 [http-nio-8088-exec-3] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:44:43 [http-nio-8088-exec-4] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:44:58 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 22:44:59 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 22:44:59 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 11060 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 22:44:59 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 22:44:59 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 22:45:00 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 22:45:00 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:45:00 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 22:45:00 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 22:45:00 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 22:45:00 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 697 ms
+2025-04-18 22:45:00 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:45:00 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 22:45:00 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.519 seconds (process running for 2.548)
+2025-04-18 22:45:00 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 22:45:00 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 22:45:00 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 22:45:00 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-18 22:45:00 [http-nio-8088-exec-1] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:45:02 [http-nio-8088-exec-2] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:45:03 [http-nio-8088-exec-3] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:45:03 [http-nio-8088-exec-4] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:45:03 [http-nio-8088-exec-6] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:45:13 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 22:45:13 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 22:45:13 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 12760 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 22:45:13 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 22:45:14 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 22:45:14 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 22:45:14 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:45:14 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 22:45:14 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 22:45:14 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 22:45:14 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 612 ms
+2025-04-18 22:45:14 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:45:14 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 22:45:14 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.285 seconds (process running for 2.101)
+2025-04-18 22:45:14 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 22:45:15 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 22:45:15 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 22:45:15 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-18 22:45:15 [http-nio-8088-exec-1] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:45:16 [http-nio-8088-exec-2] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:45:18 [http-nio-8088-exec-3] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:45:18 [http-nio-8088-exec-4] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:45:18 [http-nio-8088-exec-5] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:45:19 [http-nio-8088-exec-6] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:45:19 [http-nio-8088-exec-7] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:45:19 [http-nio-8088-exec-9] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:45:19 [http-nio-8088-exec-8] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:45:26 [http-nio-8088-exec-10] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:45:36 [http-nio-8088-exec-1] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\src\main\resources\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/src/main/resources/config/'
+2025-04-18 22:46:45 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-18 22:46:45 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-18 22:46:45 [tomcat-shutdown] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:46:45 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-18 22:46:45 [RMI TCP Connection(4)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:46:49 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 22:46:50 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 22:46:50 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 12840 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 22:46:50 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 22:46:50 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 22:46:50 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 22:46:50 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:46:50 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 22:46:50 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 22:46:50 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 22:46:50 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 738 ms
+2025-04-18 22:46:51 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 22:46:51 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 22:46:51 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.571 seconds (process running for 2.612)
+2025-04-18 22:46:51 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 22:46:53 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 22:46:53 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 22:46:53 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-18 22:46:53 [http-nio-8088-exec-1] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:35:16 [http-nio-8088-exec-4] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:35:17 [http-nio-8088-exec-6] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:35:18 [http-nio-8088-exec-5] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:35:18 [http-nio-8088-exec-7] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:37:30 [http-nio-8088-exec-10] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:39:27 [main] INFO  pl.piomin.services.config.ConfigApplication - Đang khởi động ứng dụng...
+2025-04-18 23:39:28 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-18 23:39:28 [main] INFO  pl.piomin.services.config.ConfigApplication - Starting ConfigApplication using Java 21.0.3 with PID 7132 (D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\target\classes started by WINDOWS in D:\DATA\JAVA\Technical\sample-spring-microservices\config-service)
+2025-04-18 23:39:28 [main] INFO  pl.piomin.services.config.ConfigApplication - The following 1 profile is active: "native"
+2025-04-18 23:39:28 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=e41ee321-98a2-3d2d-a821-b739b4db80c6
+2025-04-18 23:39:28 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2025-04-18 23:39:28 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2025-04-18 23:39:28 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-18 23:39:28 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18 23:39:28 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-18 23:39:28 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 716 ms
+2025-04-18 23:39:29 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2025-04-18 23:39:29 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path '/'
+2025-04-18 23:39:29 [main] INFO  pl.piomin.services.config.ConfigApplication - Started ConfigApplication in 1.541 seconds (process running for 2.604)
+2025-04-18 23:39:29 [main] INFO  pl.piomin.services.config.ConfigApplication - Đã khởi động ứng dụng...
+2025-04-18 23:39:35 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-18 23:39:35 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-18 23:39:35 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-18 23:39:35 [http-nio-8088-exec-1] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:40:17 [http-nio-8088-exec-3] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:40:49 [http-nio-8088-exec-5] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:41:21 [http-nio-8088-exec-7] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\gateway-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:42:12 [http-nio-8088-exec-10] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\gateway-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:43:30 [http-nio-8088-exec-2] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\gateway-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:44:20 [http-nio-8088-exec-4] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\gateway-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:45:02 [http-nio-8088-exec-6] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\discovery-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:46:49 [http-nio-8088-exec-8] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\gateway-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:48:05 [http-nio-8088-exec-10] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\gateway-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:50:30 [http-nio-8088-exec-4] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\gateway-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'
+2025-04-18 23:58:14 [http-nio-8088-exec-9] INFO  org.springframework.cloud.config.server.environment.NativeEnvironmentRepository - Adding property source: Config resource 'file [D:\DATA\JAVA\Technical\sample-spring-microservices\config-service\config\gateway-service.yml]' via location 'file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config/'

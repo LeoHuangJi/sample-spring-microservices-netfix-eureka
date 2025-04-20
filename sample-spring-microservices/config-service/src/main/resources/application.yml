@@ -1,0 +1,13 @@
+server:
+  port: 8088
+spring:
+    application:
+        name: config-service
+    profiles:
+        active: native
+    cloud:
+      config:
+        server:
+          native:
+#            searchLocations: file:///D:/DATA/JAVA/Technical/sample-spring-microservices/config-service/config
+            searchLocations: file:////opt/app/config-service/config
