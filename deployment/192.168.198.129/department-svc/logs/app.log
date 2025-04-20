@@ -1,0 +1,56 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m              [2m (v3.4.3)[0;39m
+
+[34m2025-04-20 13:33:05[0;39m [36m[,][0;39m [32m- INFO[0;39m Starting DepartmentApplication v1.2-SNAPSHOT using Java 22 with PID 84622 (/opt/app/department-svc/lib/department-service-1.2-SNAPSHOT.jar started by root in /opt/app/department-svc)
+[34m2025-04-20 13:33:05[0;39m [36m[,][0;39m [32m- INFO[0;39m No active profile set, falling back to 1 default profile: "default"
+[34m2025-04-20 13:33:05[0;39m [36m[,][0;39m [32m- INFO[0;39m Fetching config from server at : http://localhost:8088
+[34m2025-04-20 13:33:05[0;39m [36m[,][0;39m [32m- INFO[0;39m Located environment: name=department-service, profiles=[default], label=null, version=null, state=null
+[34m2025-04-20 13:33:06[0;39m [36m[,][0;39m [32m- INFO[0;39m BeanFactory id=00d25f1d-e2db-3eb8-8c76-f9d1d052e0ff
+[34m2025-04-20 13:33:06[0;39m [36m[,][0;39m [32m- INFO[0;39m Tomcat initialized with port 8020 (http)
+[34m2025-04-20 13:33:06[0;39m [36m[,][0;39m [32m- INFO[0;39m Starting service [Tomcat]
+[34m2025-04-20 13:33:06[0;39m [36m[,][0;39m [32m- INFO[0;39m Starting Servlet engine: [Apache Tomcat/10.1.36]
+[34m2025-04-20 13:33:06[0;39m [36m[,][0;39m [32m- INFO[0;39m Initializing Spring embedded WebApplicationContext
+[34m2025-04-20 13:33:06[0;39m [36m[,][0;39m [32m- INFO[0;39m Root WebApplicationContext: initialization completed in 1581 ms
+[34m2025-04-20 13:33:07[0;39m [36m[,][0;39m [32m- INFO[0;39m For 'employee-service' URL not provided. Will try picking an instance via load-balancing.
+[34m2025-04-20 13:33:07[0;39m [36m[,][0;39m [32m- INFO[0;39m Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Eureka HTTP Client uses RestTemplate.
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [33m- WARN[0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Exposing 1 endpoint beneath base path '/actuator'
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Setting initial instance status as: STARTING
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Initializing Eureka in region us-east-1
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Resolving eureka endpoints via configuration
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Disable delta property : false
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Single vip registry refresh property : null
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Force full registry fetch : false
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Application is null : false
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Registered Applications size is zero : true
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Application version is -1: true
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Getting all instance registry info from the eureka server
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m The response status is 200
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Starting heartbeat executor: renew interval is: 30
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Discovery Client initialized at timestamp 1745130788703 with initial instances count: 3
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Registering application DEPARTMENT-SERVICE with eureka with status UP
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Saw local status change event StatusChangeEvent [timestamp=1745130788708, current=UP, previous=STARTING]
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m DiscoveryClient_DEPARTMENT-SERVICE/department-service:ce770df7589f2890b2fabf44776e6be9: registering service...
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Tomcat started on port 8020 (http) with context path '/'
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Updating port to 8020
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m Started DepartmentApplication in 4.267 seconds (process running for 4.706)
+[34m2025-04-20 13:33:08[0;39m [36m[,][0;39m [32m- INFO[0;39m DiscoveryClient_DEPARTMENT-SERVICE/department-service:ce770df7589f2890b2fabf44776e6be9 - registration status: 204
+[34m2025-04-20 13:33:41[0;39m [36m[,][0;39m [32m- INFO[0;39m Unregistering application DEPARTMENT-SERVICE with eureka with status DOWN
+[34m2025-04-20 13:33:41[0;39m [36m[,][0;39m [32m- INFO[0;39m Saw local status change event StatusChangeEvent [timestamp=1745130821381, current=DOWN, previous=UP]
+[34m2025-04-20 13:33:41[0;39m [36m[,][0;39m [32m- INFO[0;39m DiscoveryClient_DEPARTMENT-SERVICE/department-service:ce770df7589f2890b2fabf44776e6be9: registering service...
+[34m2025-04-20 13:33:41[0;39m [36m[,][0;39m [32m- INFO[0;39m Commencing graceful shutdown. Waiting for active requests to complete
+[34m2025-04-20 13:33:41[0;39m [36m[,][0;39m [32m- INFO[0;39m DiscoveryClient_DEPARTMENT-SERVICE/department-service:ce770df7589f2890b2fabf44776e6be9 - registration status: 204
+[34m2025-04-20 13:33:41[0;39m [36m[,][0;39m [32m- INFO[0;39m Graceful shutdown complete
+[34m2025-04-20 13:33:41[0;39m [36m[,][0;39m [32m- INFO[0;39m Shutting down DiscoveryClient ...
+[34m2025-04-20 13:33:44[0;39m [36m[,][0;39m [32m- INFO[0;39m Unregistering ...
+[34m2025-04-20 13:33:44[0;39m [36m[,][0;39m [32m- INFO[0;39m DiscoveryClient_DEPARTMENT-SERVICE/department-service:ce770df7589f2890b2fabf44776e6be9 - deregister  status: 200
+[34m2025-04-20 13:33:44[0;39m [36m[,][0;39m [32m- INFO[0;39m Completed shut down of DiscoveryClient

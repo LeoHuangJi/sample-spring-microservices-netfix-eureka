@@ -1,0 +1,94 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-04-20T13:07:37.705+07:00  INFO 73120 --- [config-service] [           main] p.p.s.c.ConfigApplication                : Starting ConfigApplication v1.1-SNAPSHOT using Java 22 with PID 73120 (/opt/app/config-service/lib/config-service-1.1-SNAPSHOT.jar started by root in /opt/app/config-service)
+2025-04-20T13:07:37.709+07:00  INFO 73120 --- [config-service] [           main] p.p.s.c.ConfigApplication                : The following 1 profile is active: "native"
+2025-04-20T13:07:38.371+07:00  INFO 73120 --- [config-service] [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=426cc1a5-c302-3bd4-a790-2add56ed5fd1
+2025-04-20T13:07:38.555+07:00  INFO 73120 --- [config-service] [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8088 (http)
+2025-04-20T13:07:38.568+07:00  INFO 73120 --- [config-service] [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-04-20T13:07:38.568+07:00  INFO 73120 --- [config-service] [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20T13:07:38.590+07:00  INFO 73120 --- [config-service] [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-04-20T13:07:38.591+07:00  INFO 73120 --- [config-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 799 ms
+2025-04-20T13:07:39.113+07:00  INFO 73120 --- [config-service] [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8088 (http) with context path '/'
+2025-04-20T13:07:39.125+07:00  INFO 73120 --- [config-service] [           main] p.p.s.c.ConfigApplication                : Started ConfigApplication in 1.861 seconds (process running for 2.437)
+2025-04-20T13:07:39.127+07:00  INFO 73120 --- [config-service] [           main] p.p.s.c.ConfigApplication                : Đã khởi động ứng dụng...
+2025-04-20T13:10:45.330+07:00  INFO 73120 --- [config-service] [nio-8088-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20T13:10:45.330+07:00  INFO 73120 --- [config-service] [nio-8088-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-04-20T13:10:45.331+07:00  INFO 73120 --- [config-service] [nio-8088-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+Exception in thread "SpringApplicationShutdownHook" java.lang.NoClassDefFoundError: org/apache/logging/log4j/message/ParameterizedMessage
+	at org.apache.logging.log4j.message.ParameterizedNoReferenceMessageFactory.newMessage(ParameterizedNoReferenceMessageFactory.java:105)
+	at org.apache.logging.log4j.message.AbstractMessageFactory.newMessage(AbstractMessageFactory.java:103)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2684)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:2458)
+	at org.apache.logging.log4j.spi.AbstractLogger.warn(AbstractLogger.java:3672)
+	at org.apache.logging.log4j.spi.AbstractLogger.handleLogMessageException(AbstractLogger.java:2925)
+	at org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2907)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2857)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2839)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2618)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:2565)
+	at org.apache.logging.log4j.spi.AbstractLogger.error(AbstractLogger.java:806)
+	at org.apache.logging.log4j.core.appender.DefaultErrorHandler.error(DefaultErrorHandler.java:92)
+	at org.apache.logging.log4j.core.config.AppenderControl.handleAppenderError(AppenderControl.java:169)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:164)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:133)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:124)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:88)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:714)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:672)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:648)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:549)
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:67)
+	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:173)
+	at org.apache.logging.slf4j.Log4jLogger.log(Log4jLogger.java:374)
+	at org.apache.commons.logging.impl.SLF4JLocationAwareLog.warn(SLF4JLocationAwareLog.java:207)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1175)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:179)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.ClassNotFoundException: org.apache.logging.log4j.message.ParameterizedMessage
+	... 33 more
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2025-04-20T13:13:32.199+07:00  INFO 76114 --- [config-service] [           main] p.p.s.c.ConfigApplication                : Starting ConfigApplication v1.1-SNAPSHOT using Java 22 with PID 76114 (/opt/app/config-service/lib/config-service-1.1-SNAPSHOT.jar started by root in /opt/app/config-service)
+2025-04-20T13:13:32.203+07:00  INFO 76114 --- [config-service] [           main] p.p.s.c.ConfigApplication                : The following 1 profile is active: "native"
+2025-04-20T13:13:32.768+07:00  INFO 76114 --- [config-service] [           main] o.s.c.c.s.GenericScope                   : BeanFactory id=426cc1a5-c302-3bd4-a790-2add56ed5fd1
+2025-04-20T13:13:32.967+07:00  INFO 76114 --- [config-service] [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8088 (http)
+2025-04-20T13:13:32.978+07:00  INFO 76114 --- [config-service] [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-04-20T13:13:32.979+07:00  INFO 76114 --- [config-service] [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20T13:13:32.999+07:00  INFO 76114 --- [config-service] [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-04-20T13:13:33.000+07:00  INFO 76114 --- [config-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 767 ms
+2025-04-20T13:13:33.469+07:00  INFO 76114 --- [config-service] [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8088 (http) with context path '/'
+2025-04-20T13:13:33.482+07:00  INFO 76114 --- [config-service] [           main] p.p.s.c.ConfigApplication                : Started ConfigApplication in 1.771 seconds (process running for 2.393)
+2025-04-20T13:13:33.483+07:00  INFO 76114 --- [config-service] [           main] p.p.s.c.ConfigApplication                : Đã khởi động ứng dụng...
+2025-04-20T13:13:56.961+07:00  INFO 76114 --- [config-service] [nio-8088-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20T13:13:56.961+07:00  INFO 76114 --- [config-service] [nio-8088-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-04-20T13:13:56.962+07:00  INFO 76114 --- [config-service] [nio-8088-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2025-04-20T13:13:57.010+07:00  INFO 76114 --- [config-service] [nio-8088-exec-1] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/opt/app/config-service/config/discovery-service.yml]' via location 'file:////opt/app/config-service/config/'
+2025-04-20T13:15:23.108+07:00  INFO 76114 --- [config-service] [nio-8088-exec-4] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/opt/app/config-service/config/discovery-service.yml]' via location 'file:////opt/app/config-service/config/'
+2025-04-20T13:16:51.346+07:00  INFO 76114 --- [config-service] [nio-8088-exec-2] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/opt/app/config-service/config/gateway-service.yml]' via location 'file:////opt/app/config-service/config/'
+2025-04-20T13:17:02.191+07:00  INFO 76114 --- [config-service] [nio-8088-exec-7] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/opt/app/config-service/config/gateway-service.yml]' via location 'file:////opt/app/config-service/config/'
+2025-04-20T13:17:49.795+07:00  INFO 76114 --- [config-service] [nio-8088-exec-9] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/opt/app/config-service/config/gateway-service.yml]' via location 'file:////opt/app/config-service/config/'
+2025-04-20T13:32:43.119+07:00  INFO 76114 --- [config-service] [nio-8088-exec-1] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/opt/app/config-service/config/department-service.yml]' via location 'file:////opt/app/config-service/config/'
+2025-04-20T13:33:05.089+07:00  INFO 76114 --- [config-service] [nio-8088-exec-4] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/opt/app/config-service/config/department-service.yml]' via location 'file:////opt/app/config-service/config/'
+2025-04-20T13:33:43.820+07:00  INFO 76114 --- [config-service] [nio-8088-exec-5] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/opt/app/config-service/config/department-service.yml]' via location 'file:////opt/app/config-service/config/'
+2025-04-20T13:41:39.682+07:00  INFO 76114 --- [config-service] [nio-8088-exec-7] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/opt/app/config-service/config/department-service.yml]' via location 'file:////opt/app/config-service/config/'
+2025-04-20T13:45:13.905+07:00  INFO 76114 --- [config-service] [nio-8088-exec-9] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/opt/app/config-service/config/gateway-service.yml]' via location 'file:////opt/app/config-service/config/'

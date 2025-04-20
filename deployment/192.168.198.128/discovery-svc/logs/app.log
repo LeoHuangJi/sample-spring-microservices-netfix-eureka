@@ -1,0 +1,527 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m              [2m (v3.4.3)[0;39m
+
+[34m2025-04-20 13:15:23[0;39m [32m- INFO[0;39m Starting DiscoveryApplication v1.1-SNAPSHOT using Java 22 with PID 77034 (/opt/app/discovery-svc/lib/discovery-service-1.1-SNAPSHOT.jar started by root in /opt/app/discovery-svc)
+[34m2025-04-20 13:15:23[0;39m [32m- INFO[0;39m No active profile set, falling back to 1 default profile: "default"
+[34m2025-04-20 13:15:23[0;39m [32m- INFO[0;39m Fetching config from server at : http://localhost:8088
+[34m2025-04-20 13:15:23[0;39m [32m- INFO[0;39m Located environment: name=discovery-service, profiles=[default], label=null, version=null, state=null
+[34m2025-04-20 13:15:24[0;39m [32m- INFO[0;39m BeanFactory id=1ef91171-1690-397f-938a-6049b5da4623
+[34m2025-04-20 13:15:24[0;39m [32m- INFO[0;39m Tomcat initialized with port 8061 (http)
+[34m2025-04-20 13:15:24[0;39m [32m- INFO[0;39m Starting service [Tomcat]
+[34m2025-04-20 13:15:24[0;39m [32m- INFO[0;39m Starting Servlet engine: [Apache Tomcat/10.1.36]
+[34m2025-04-20 13:15:24[0;39m [32m- INFO[0;39m Initializing Spring embedded WebApplicationContext
+[34m2025-04-20 13:15:24[0;39m [32m- INFO[0;39m Root WebApplicationContext: initialization completed in 1090 ms
+[34m2025-04-20 13:15:25[0;39m [32m- INFO[0;39m Using JSON encoding codec LegacyJacksonJson
+[34m2025-04-20 13:15:25[0;39m [32m- INFO[0;39m Using JSON decoding codec LegacyJacksonJson
+[34m2025-04-20 13:15:25[0;39m [32m- INFO[0;39m Using XML encoding codec XStreamXml
+[34m2025-04-20 13:15:25[0;39m [32m- INFO[0;39m Using XML decoding codec XStreamXml
+[34m2025-04-20 13:15:25[0;39m [32m- INFO[0;39m Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+[34m2025-04-20 13:15:26[0;39m [33m- WARN[0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Setting initial instance status as: STARTING
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Initializing Eureka in region us-east-1
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Client configured to neither register nor query for data.
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Discovery Client initialized at timestamp 1745129726204 with initial instances count: 0
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Initializing ...
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Adding new peer nodes [http://localhost:8061/eureka/]
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Using JSON encoding codec LegacyJacksonJson
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Using JSON decoding codec LegacyJacksonJson
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Using XML encoding codec XStreamXml
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Using XML decoding codec XStreamXml
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Replica node URL:  http://localhost:8061/eureka/
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Finished initializing remote region registries. All known remote regions: []
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Initialized
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Exposing 17 endpoints beneath base path '/actuator'
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Registering application DISCOVERY-SERVICE with eureka with status UP
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m isAws returned false
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Initialized server context
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Got 1 instances from neighboring DS node
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Renew threshold is: 1
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Changing status to UP
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Started Eureka Server
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Tomcat started on port 8061 (http) with context path '/'
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Updating port to 8061
+[34m2025-04-20 13:15:26[0;39m [32m- INFO[0;39m Started DiscoveryApplication in 3.99 seconds (process running for 4.365)
+[34m2025-04-20 13:15:30[0;39m [32m- INFO[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[34m2025-04-20 13:15:30[0;39m [32m- INFO[0;39m Initializing Servlet 'dispatcherServlet'
+[34m2025-04-20 13:15:30[0;39m [32m- INFO[0;39m Completed initialization in 1 ms
+[34m2025-04-20 13:15:30[0;39m [33m- WARN[0;39m DS: Registry: lease doesn't exist, registering resource: DEPARTMENT-SERVICE - department-service:898b517b3d5b91d3cfcc27cf91be013f
+[34m2025-04-20 13:15:30[0;39m [33m- WARN[0;39m Not Found (Renew): DEPARTMENT-SERVICE - department-service:898b517b3d5b91d3cfcc27cf91be013f
+[34m2025-04-20 13:15:30[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:898b517b3d5b91d3cfcc27cf91be013f with status UP (replication=false)
+[34m2025-04-20 13:15:31[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:898b517b3d5b91d3cfcc27cf91be013f with status UP (replication=true)
+[34m2025-04-20 13:15:31[0;39m [33m- WARN[0;39m DS: Registry: lease doesn't exist, registering resource: DEPARTMENT-SERVICE - department-service:5bc8ad47695382db09c70d45b91b5518
+[34m2025-04-20 13:15:31[0;39m [33m- WARN[0;39m Not Found (Renew): DEPARTMENT-SERVICE - department-service:5bc8ad47695382db09c70d45b91b5518
+[34m2025-04-20 13:15:31[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:5bc8ad47695382db09c70d45b91b5518 with status UP (replication=false)
+[34m2025-04-20 13:15:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:15:31[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:5bc8ad47695382db09c70d45b91b5518 with status UP (replication=true)
+[34m2025-04-20 13:15:36[0;39m [33m- WARN[0;39m DS: Registry: lease doesn't exist, registering resource: GATEWAY-SERVICE - 192.168.198.128:gateway-service:8060
+[34m2025-04-20 13:15:36[0;39m [33m- WARN[0;39m Not Found (Renew): GATEWAY-SERVICE - 192.168.198.128:gateway-service:8060
+[34m2025-04-20 13:15:36[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status UP (replication=false)
+[34m2025-04-20 13:15:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:15:36[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status UP (replication=true)
+[34m2025-04-20 13:15:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:15:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:15:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:15:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:16:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:16:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:16:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:16:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:16:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:16:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:16:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:16:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:16:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:16:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:16:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 6ms
+[34m2025-04-20 13:16:54[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status UP (replication=false)
+[34m2025-04-20 13:16:54[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status DOWN (replication=false)
+[34m2025-04-20 13:16:55[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status DOWN (replication=true)
+[34m2025-04-20 13:16:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:16:57[0;39m [32m- INFO[0;39m Cancelled instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 (replication=false)
+[34m2025-04-20 13:16:58[0;39m [33m- WARN[0;39m DS: Registry: cancel failed because Lease is not registered for: GATEWAY-SERVICE/192.168.198.128:gateway-service:8060
+[34m2025-04-20 13:16:58[0;39m [32m- INFO[0;39m Not Found (Cancel): GATEWAY-SERVICE - 192.168.198.128:gateway-service:8060
+[34m2025-04-20 13:16:58[0;39m [33m- WARN[0;39m The replication of task GATEWAY-SERVICE/192.168.198.128:gateway-service:8060:Cancel@localhost failed with response code 404
+[34m2025-04-20 13:16:58[0;39m [33m- WARN[0;39m GATEWAY-SERVICE/192.168.198.128:gateway-service:8060:Cancel@localhost: missing entry.
+[34m2025-04-20 13:17:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:17:05[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status UP (replication=false)
+[34m2025-04-20 13:17:05[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status DOWN (replication=false)
+[34m2025-04-20 13:17:05[0;39m [32m- INFO[0;39m Cancelled instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 (replication=false)
+[34m2025-04-20 13:17:05[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status DOWN (replication=true)
+[34m2025-04-20 13:17:05[0;39m [32m- INFO[0;39m Cancelled instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 (replication=true)
+[34m2025-04-20 13:17:06[0;39m [33m- WARN[0;39m DS: Registry: lease doesn't exist, registering resource: GATEWAY-SERVICE - 192.168.198.128:gateway-service:8060
+[34m2025-04-20 13:17:06[0;39m [33m- WARN[0;39m Not Found (Renew): GATEWAY-SERVICE - 192.168.198.128:gateway-service:8060
+[34m2025-04-20 13:17:06[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status UP (replication=false)
+[34m2025-04-20 13:17:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:17:06[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status UP (replication=true)
+[34m2025-04-20 13:17:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:17:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:17:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:17:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:17:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:17:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:17:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:17:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:17:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 3ms
+[34m2025-04-20 13:17:53[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status UP (replication=false)
+[34m2025-04-20 13:17:53[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status DOWN (replication=false)
+[34m2025-04-20 13:17:53[0;39m [32m- INFO[0;39m Cancelled instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 (replication=false)
+[34m2025-04-20 13:17:53[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status DOWN (replication=true)
+[34m2025-04-20 13:17:53[0;39m [32m- INFO[0;39m Cancelled instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 (replication=true)
+[34m2025-04-20 13:17:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:18:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:18:06[0;39m [33m- WARN[0;39m DS: Registry: lease doesn't exist, registering resource: GATEWAY-SERVICE - 192.168.198.128:gateway-service:8060
+[34m2025-04-20 13:18:06[0;39m [33m- WARN[0;39m Not Found (Renew): GATEWAY-SERVICE - 192.168.198.128:gateway-service:8060
+[34m2025-04-20 13:18:06[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status UP (replication=false)
+[34m2025-04-20 13:18:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:18:06[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status UP (replication=true)
+[34m2025-04-20 13:18:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:18:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:18:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:18:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:18:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:18:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:18:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:18:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:18:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:18:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:19:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:19:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:19:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:19:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:19:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:19:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 1ms
+[34m2025-04-20 13:19:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:19:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:19:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:19:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:19:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:19:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:20:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:20:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:20:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:20:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:20:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:20:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:20:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:20:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:20:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:20:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:20:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:20:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:21:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:21:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:21:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:21:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:21:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:21:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:21:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:21:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:21:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:21:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:21:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:21:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:22:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:22:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:22:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:22:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:22:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:22:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:22:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:22:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:22:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:22:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:22:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:22:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:23:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:23:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:23:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:23:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:23:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:23:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:23:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:23:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:23:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:23:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:23:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:23:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:24:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:24:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:24:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:24:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:24:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:24:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:24:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:24:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:24:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:24:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:24:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:24:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:25:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:25:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:25:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:25:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:25:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:25:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:25:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:25:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:25:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:25:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 1ms
+[34m2025-04-20 13:25:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:25:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:26:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:26:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:26:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:26:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:26:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:26:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:26:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:26:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:26:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:26:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:26:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:26:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:27:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:27:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:27:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:27:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:27:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:27:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:27:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:27:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:27:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:27:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:27:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:27:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:28:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:28:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:28:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:28:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:28:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:28:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:28:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:28:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:28:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:28:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:28:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:28:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:29:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:29:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:29:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:29:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:29:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:29:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:29:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:29:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:29:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:29:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:29:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:29:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:30:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:30:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:30:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:30:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:30:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:30:26[0;39m [32m- INFO[0;39m Current renewal threshold is : 6
+[34m2025-04-20 13:30:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:30:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:30:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:30:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:30:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:30:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:30:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:31:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:31:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:31:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:31:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:31:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:31:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:31:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:31:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:31:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:31:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:31:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:31:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:32:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:32:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:32:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:32:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:32:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:32:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:32:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:32:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:32:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:32:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:32:46[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:0550bd51bb1a6544e3d9a872e39a1db1 with status DOWN (replication=false)
+[34m2025-04-20 13:32:46[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:0550bd51bb1a6544e3d9a872e39a1db1 with status DOWN (replication=false)
+[34m2025-04-20 13:32:46[0;39m [32m- INFO[0;39m Cancelled instance DEPARTMENT-SERVICE/department-service:0550bd51bb1a6544e3d9a872e39a1db1 (replication=false)
+[34m2025-04-20 13:32:47[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:0550bd51bb1a6544e3d9a872e39a1db1 with status DOWN (replication=true)
+[34m2025-04-20 13:32:47[0;39m [32m- INFO[0;39m Cancelled instance DEPARTMENT-SERVICE/department-service:0550bd51bb1a6544e3d9a872e39a1db1 (replication=true)
+[34m2025-04-20 13:32:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:32:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:32:58[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:898b517b3d5b91d3cfcc27cf91be013f with status DOWN (replication=false)
+[34m2025-04-20 13:32:59[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:898b517b3d5b91d3cfcc27cf91be013f with status DOWN (replication=true)
+[34m2025-04-20 13:33:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:33:01[0;39m [32m- INFO[0;39m Cancelled instance DEPARTMENT-SERVICE/department-service:898b517b3d5b91d3cfcc27cf91be013f (replication=false)
+[34m2025-04-20 13:33:02[0;39m [33m- WARN[0;39m DS: Registry: cancel failed because Lease is not registered for: DEPARTMENT-SERVICE/department-service:898b517b3d5b91d3cfcc27cf91be013f
+[34m2025-04-20 13:33:02[0;39m [32m- INFO[0;39m Not Found (Cancel): DEPARTMENT-SERVICE - department-service:898b517b3d5b91d3cfcc27cf91be013f
+[34m2025-04-20 13:33:02[0;39m [33m- WARN[0;39m The replication of task DEPARTMENT-SERVICE/department-service:898b517b3d5b91d3cfcc27cf91be013f:Cancel@localhost failed with response code 404
+[34m2025-04-20 13:33:02[0;39m [33m- WARN[0;39m DEPARTMENT-SERVICE/department-service:898b517b3d5b91d3cfcc27cf91be013f:Cancel@localhost: missing entry.
+[34m2025-04-20 13:33:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:33:08[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:ce770df7589f2890b2fabf44776e6be9 with status UP (replication=false)
+[34m2025-04-20 13:33:09[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:ce770df7589f2890b2fabf44776e6be9 with status UP (replication=true)
+[34m2025-04-20 13:33:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:33:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:33:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:33:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:33:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:33:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:33:41[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:ce770df7589f2890b2fabf44776e6be9 with status DOWN (replication=false)
+[34m2025-04-20 13:33:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:33:41[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:ce770df7589f2890b2fabf44776e6be9 with status DOWN (replication=true)
+[34m2025-04-20 13:33:44[0;39m [32m- INFO[0;39m Cancelled instance DEPARTMENT-SERVICE/department-service:ce770df7589f2890b2fabf44776e6be9 (replication=false)
+[34m2025-04-20 13:33:44[0;39m [33m- WARN[0;39m DS: Registry: cancel failed because Lease is not registered for: DEPARTMENT-SERVICE/department-service:ce770df7589f2890b2fabf44776e6be9
+[34m2025-04-20 13:33:44[0;39m [32m- INFO[0;39m Not Found (Cancel): DEPARTMENT-SERVICE - department-service:ce770df7589f2890b2fabf44776e6be9
+[34m2025-04-20 13:33:44[0;39m [33m- WARN[0;39m The replication of task DEPARTMENT-SERVICE/department-service:ce770df7589f2890b2fabf44776e6be9:Cancel@localhost failed with response code 404
+[34m2025-04-20 13:33:44[0;39m [33m- WARN[0;39m DEPARTMENT-SERVICE/department-service:ce770df7589f2890b2fabf44776e6be9:Cancel@localhost: missing entry.
+[34m2025-04-20 13:33:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:33:47[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:5b6e567124238d3cec0a427c85d23e0c with status UP (replication=false)
+[34m2025-04-20 13:33:47[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:5b6e567124238d3cec0a427c85d23e0c with status UP (replication=true)
+[34m2025-04-20 13:33:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:33:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:34:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:34:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:34:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:34:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:34:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:34:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:34:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:34:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:34:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:34:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:34:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:34:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:35:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:35:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:35:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:35:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:35:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:35:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:35:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:35:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:35:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:35:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:35:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:35:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:36:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:36:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:36:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:36:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:36:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:36:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:36:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:36:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:36:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:36:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:36:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:36:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:37:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:37:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:37:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:37:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:37:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:37:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:37:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:37:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:37:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:37:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:37:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:37:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:38:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:38:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:38:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:38:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:38:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:38:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:38:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:38:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:38:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:38:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:38:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:38:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:39:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:39:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:39:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:39:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:39:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:39:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:39:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:39:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:39:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:39:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:39:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:39:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:40:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:40:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:40:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:40:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 1ms
+[34m2025-04-20 13:40:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:40:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:40:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:40:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:40:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:40:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:40:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:40:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:41:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:41:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:41:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:41:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:41:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:41:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:41:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:41:34[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:5b6e567124238d3cec0a427c85d23e0c with status DOWN (replication=false)
+[34m2025-04-20 13:41:34[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:5b6e567124238d3cec0a427c85d23e0c with status DOWN (replication=true)
+[34m2025-04-20 13:41:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:41:37[0;39m [32m- INFO[0;39m Cancelled instance DEPARTMENT-SERVICE/department-service:5b6e567124238d3cec0a427c85d23e0c (replication=false)
+[34m2025-04-20 13:41:37[0;39m [33m- WARN[0;39m DS: Registry: cancel failed because Lease is not registered for: DEPARTMENT-SERVICE/department-service:5b6e567124238d3cec0a427c85d23e0c
+[34m2025-04-20 13:41:37[0;39m [32m- INFO[0;39m Not Found (Cancel): DEPARTMENT-SERVICE - department-service:5b6e567124238d3cec0a427c85d23e0c
+[34m2025-04-20 13:41:37[0;39m [33m- WARN[0;39m The replication of task DEPARTMENT-SERVICE/department-service:5b6e567124238d3cec0a427c85d23e0c:Cancel@localhost failed with response code 404
+[34m2025-04-20 13:41:37[0;39m [33m- WARN[0;39m DEPARTMENT-SERVICE/department-service:5b6e567124238d3cec0a427c85d23e0c:Cancel@localhost: missing entry.
+[34m2025-04-20 13:41:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:41:43[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:1b96b97890d01a6306f6d769075681b0 with status UP (replication=false)
+[34m2025-04-20 13:41:43[0;39m [32m- INFO[0;39m Registered instance DEPARTMENT-SERVICE/department-service:1b96b97890d01a6306f6d769075681b0 with status UP (replication=true)
+[34m2025-04-20 13:41:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:41:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:41:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:42:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:42:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:42:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:42:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:42:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:42:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:42:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:42:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:42:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:42:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:42:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:42:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:43:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:43:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:43:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:43:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:43:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:43:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:43:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:43:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:43:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:43:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:43:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:43:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:44:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:44:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:44:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:44:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:44:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:44:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:44:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:44:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:44:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:44:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:44:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:44:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:45:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:45:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:45:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:45:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:45:17[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status DOWN (replication=false)
+[34m2025-04-20 13:45:17[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status DOWN (replication=false)
+[34m2025-04-20 13:45:17[0;39m [32m- INFO[0;39m Cancelled instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 (replication=false)
+[34m2025-04-20 13:45:17[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status DOWN (replication=true)
+[34m2025-04-20 13:45:17[0;39m [32m- INFO[0;39m Cancelled instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 (replication=true)
+[34m2025-04-20 13:45:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:45:26[0;39m [32m- INFO[0;39m Current renewal threshold is : 5
+[34m2025-04-20 13:45:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:45:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:45:36[0;39m [33m- WARN[0;39m DS: Registry: lease doesn't exist, registering resource: GATEWAY-SERVICE - 192.168.198.128:gateway-service:8060
+[34m2025-04-20 13:45:36[0;39m [33m- WARN[0;39m Not Found (Renew): GATEWAY-SERVICE - 192.168.198.128:gateway-service:8060
+[34m2025-04-20 13:45:36[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status UP (replication=false)
+[34m2025-04-20 13:45:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:45:37[0;39m [32m- INFO[0;39m Registered instance GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 with status UP (replication=true)
+[34m2025-04-20 13:45:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:45:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:45:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:45:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:46:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:46:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:46:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:46:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:46:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:46:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:46:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:46:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:46:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:46:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:46:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:46:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:47:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:47:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:47:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:47:16[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:47:21[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:47:26[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:47:31[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:47:36[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:47:41[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:47:46[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:47:51[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:47:56[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:48:01[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:48:06[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms
+[34m2025-04-20 13:48:11[0;39m [32m- INFO[0;39m Running the evict task with compensationTime 0ms

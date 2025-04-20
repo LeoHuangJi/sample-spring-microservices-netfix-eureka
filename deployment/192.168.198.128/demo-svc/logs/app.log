@@ -1,0 +1,97 @@
+2025-04-17 23:03:16 [main] INFO  com.example.demo.SimpleAppApplication - Đang khởi động ứng dụng...
+2025-04-17 23:03:16 [main] INFO  com.example.demo.SimpleAppApplication - Starting SimpleAppApplication v0.0.1-SNAPSHOT using Java 1.8.0_442 on 192.168.198.128 with PID 18947 (/opt/app/demo-svc/lib/simple-app-0.0.1-SNAPSHOT.jar started by root in /opt/app/demo-svc)
+2025-04-17 23:03:16 [main] INFO  com.example.demo.SimpleAppApplication - The following profiles are active: default
+2025-04-17 23:03:17 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-17 23:03:17 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-17 23:03:17 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:03:17 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2025-04-17 23:03:17 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:03:17 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 828 ms
+2025-04-17 23:03:17 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-17 23:03:17 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-17 23:03:17 [main] INFO  com.example.demo.SimpleAppApplication - Started SimpleAppApplication in 1.577 seconds (JVM running for 2.467)
+2025-04-17 23:03:17 [main] INFO  com.example.demo.SimpleAppApplication - Ứng dụng đã khởi động thành công!
+2025-04-17 23:03:26 [main] INFO  com.example.demo.SimpleAppApplication - Đang khởi động ứng dụng...
+2025-04-17 23:03:26 [main] INFO  com.example.demo.SimpleAppApplication - Starting SimpleAppApplication v0.0.1-SNAPSHOT using Java 1.8.0_442 on 192.168.198.128 with PID 19072 (/opt/app/demo-svc/lib/simple-app-0.0.1-SNAPSHOT.jar started by root in /opt/app/demo-svc)
+2025-04-17 23:03:26 [main] INFO  com.example.demo.SimpleAppApplication - The following profiles are active: default
+2025-04-17 23:03:27 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-17 23:03:27 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-17 23:03:27 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:03:27 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2025-04-17 23:03:27 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:03:27 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 464 ms
+2025-04-17 23:03:27 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-17 23:03:27 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-17 23:03:27 [main] INFO  com.example.demo.SimpleAppApplication - Started SimpleAppApplication in 0.948 seconds (JVM running for 1.411)
+2025-04-17 23:03:27 [main] INFO  com.example.demo.SimpleAppApplication - Ứng dụng đã khởi động thành công!
+2025-04-17 23:05:52 [main] INFO  com.example.demo.SimpleAppApplication - Đang khởi động ứng dụng...
+2025-04-17 23:05:53 [main] INFO  com.example.demo.SimpleAppApplication - Starting SimpleAppApplication v0.0.1-SNAPSHOT using Java 1.8.0_442 on 192.168.198.128 with PID 20257 (/opt/app/demo-svc/lib/simple-app-0.0.1-SNAPSHOT.jar started by root in /opt/app/demo-svc)
+2025-04-17 23:05:53 [main] INFO  com.example.demo.SimpleAppApplication - The following profiles are active: default
+2025-04-17 23:05:54 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-17 23:05:54 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-17 23:05:54 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:05:54 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2025-04-17 23:05:54 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:05:54 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 791 ms
+2025-04-17 23:05:54 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-17 23:05:54 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-17 23:05:54 [main] INFO  com.example.demo.SimpleAppApplication - Started SimpleAppApplication in 1.549 seconds (JVM running for 2.269)
+2025-04-17 23:05:54 [main] INFO  com.example.demo.SimpleAppApplication - Ứng dụng đã khởi động thành công!
+2025-04-17 23:38:52 [main] INFO  com.example.demo.SimpleAppApplication - Đang khởi động ứng dụng...
+2025-04-17 23:38:52 [main] INFO  com.example.demo.SimpleAppApplication - Starting SimpleAppApplication v0.0.1-SNAPSHOT using Java 1.8.0_442 on 192.168.198.128 with PID 34439 (/opt/app/demo-svc/lib/simple-app-0.0.1-SNAPSHOT.jar started by root in /opt/app/demo-svc)
+2025-04-17 23:38:52 [main] INFO  com.example.demo.SimpleAppApplication - The following profiles are active: default
+2025-04-17 23:38:53 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-17 23:38:53 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-17 23:38:53 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:38:53 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2025-04-17 23:38:53 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:38:53 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 526 ms
+2025-04-17 23:38:53 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-17 23:38:53 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-17 23:38:53 [main] INFO  com.example.demo.SimpleAppApplication - Started SimpleAppApplication in 1.038 seconds (JVM running for 1.564)
+2025-04-17 23:38:53 [main] INFO  com.example.demo.SimpleAppApplication - Ứng dụng đã khởi động thành công!
+2025-04-17 23:51:03 [main] INFO  com.example.demo.SimpleAppApplication - Đang khởi động ứng dụng...
+2025-04-17 23:51:04 [main] INFO  com.example.demo.SimpleAppApplication - Starting SimpleAppApplication v0.0.1-SNAPSHOT using Java 1.8.0_442 on 192.168.198.128 with PID 39628 (/opt/app/demo-svc/lib/simple-app-0.0.1-SNAPSHOT.jar started by root in /opt/app/demo-svc)
+2025-04-17 23:51:04 [main] INFO  com.example.demo.SimpleAppApplication - The following profiles are active: default
+2025-04-17 23:51:04 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-17 23:51:04 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-17 23:51:04 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:51:04 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2025-04-17 23:51:04 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:51:04 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 546 ms
+2025-04-17 23:51:05 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-17 23:51:05 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-17 23:51:05 [main] INFO  com.example.demo.SimpleAppApplication - Started SimpleAppApplication in 1.081 seconds (JVM running for 1.611)
+2025-04-17 23:51:05 [main] INFO  com.example.demo.SimpleAppApplication - Ứng dụng đã khởi động thành công!
+2025-04-17 23:52:50 [main] INFO  com.example.demo.SimpleAppApplication - Đang khởi động ứng dụng...
+2025-04-17 23:52:50 [main] INFO  com.example.demo.SimpleAppApplication - Starting SimpleAppApplication v0.0.1-SNAPSHOT using Java 1.8.0_442 on 192.168.198.128 with PID 40509 (/opt/app/demo-svc/lib/simple-app-0.0.1-SNAPSHOT.jar started by root in /opt/app/demo-svc)
+2025-04-17 23:52:50 [main] INFO  com.example.demo.SimpleAppApplication - The following profiles are active: default
+2025-04-17 23:52:51 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-17 23:52:51 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-17 23:52:51 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:52:51 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2025-04-17 23:52:51 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:52:51 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 460 ms
+2025-04-17 23:52:51 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-17 23:52:51 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-17 23:52:51 [main] INFO  com.example.demo.SimpleAppApplication - Started SimpleAppApplication in 0.949 seconds (JVM running for 1.406)
+2025-04-17 23:52:51 [main] INFO  com.example.demo.SimpleAppApplication - Ứng dụng đã khởi động thành công!
+2025-04-17 23:53:20 [main] INFO  com.example.demo.SimpleAppApplication - Đang khởi động ứng dụng...
+2025-04-17 23:53:20 [main] INFO  com.example.demo.SimpleAppApplication - Starting SimpleAppApplication v0.0.1-SNAPSHOT using Java 1.8.0_442 on 192.168.198.128 with PID 40757 (/opt/app/demo-svc/lib/simple-app-0.0.1-SNAPSHOT.jar started by root in /opt/app/demo-svc)
+2025-04-17 23:53:20 [main] INFO  com.example.demo.SimpleAppApplication - The following profiles are active: default
+2025-04-17 23:53:20 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-17 23:53:20 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-17 23:53:20 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:53:20 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2025-04-17 23:53:20 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:53:20 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 464 ms
+2025-04-17 23:53:21 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-17 23:53:21 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-17 23:53:21 [main] INFO  com.example.demo.SimpleAppApplication - Started SimpleAppApplication in 0.948 seconds (JVM running for 1.402)
+2025-04-17 23:53:21 [main] INFO  com.example.demo.SimpleAppApplication - Ứng dụng đã khởi động thành công!
+2025-04-17 23:53:32 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-17 23:53:32 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-17 23:53:32 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-17 23:53:32 [http-nio-8080-exec-1] INFO  com.example.demo.controller.TestController - Ứng dụng bắt đầu chạy!
+2025-04-17 23:53:33 [http-nio-8080-exec-2] INFO  com.example.demo.controller.TestController - Ứng dụng bắt đầu chạy!
+2025-04-17 23:53:34 [http-nio-8080-exec-3] INFO  com.example.demo.controller.TestController - Ứng dụng bắt đầu chạy!

@@ -1,0 +1,669 @@
+2025-04-20 13:16:51 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-20 13:16:51 [main] INFO  pl.piomin.services.gateway.GatewayApplication - Starting GatewayApplication v1.1-SNAPSHOT using Java 22 with PID 77774 (/opt/app/gateway-svc/lib/gateway-service-1.1-SNAPSHOT.jar started by root in /opt/app/gateway-svc)
+2025-04-20 13:16:51 [main] INFO  pl.piomin.services.gateway.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-20 13:16:51 [main] INFO  org.springframework.cloud.config.client.ConfigServerConfigDataLoader - Fetching config from server at : http://localhost:8088
+2025-04-20 13:16:51 [main] INFO  org.springframework.cloud.config.client.ConfigServerConfigDataLoader - Located environment: name=gateway-service, profiles=[default], label=null, version=null, state=null
+2025-04-20 13:16:52 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=5229a6a9-c0df-34e3-8706-16a43a883454
+2025-04-20 13:16:53 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8060 (http)
+2025-04-20 13:16:53 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8060"]
+2025-04-20 13:16:53 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-20 13:16:53 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20 13:16:53 [main] DEBUG org.springframework.cloud.gateway.config.GatewayProperties - Routes supplied from Gateway Properties: [RouteDefinition{id='employee-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/employee/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/employee/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://employee-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='department-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/department/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/department/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://department-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='organization-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/organization/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/organization/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://organization-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='openapi', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/v3/api-docs/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/v3/api-docs/(?<path>.*), _genkey_1=/$\{path}/v3/api-docs}}], uri=http://localhost:8060, order=0, metadata={}, enabled=true}]
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-20 13:16:53 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-20 13:16:53 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-20 13:16:53 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-20 13:16:53 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-20 13:16:53 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-20 13:16:53 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-20 13:16:53 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-20 13:16:53 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-20 13:16:53 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-20 13:16:53 [main] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://192.168.198.128:8061/eureka/apps/
+2025-04-20 13:16:53 [main] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:16:53 [main] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-04-20 13:16:53 [main] DEBUG org.springframework.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-04-20 13:16:53 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-20 13:16:53 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-20 13:16:53 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-20 13:16:53 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1745129813643 with initial instances count: 3
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2025-04-20 13:16:53 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-04-20 13:16:54 [main] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-04-20 13:16:54 [main] WARN  org.springframework.web.reactive.resource.ResourceHandlerUtils - Appended trailing slash to static resource location: classpath:/META-INF/resources/webjars/swagger-ui/5.18.3/
+2025-04-20 13:16:54 [main] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2025-04-20 13:16:54 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-20 13:16:54 [main] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 @ExceptionHandler
+2025-04-20 13:16:54 [main] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-04-20 13:16:54 [main] WARN  org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-20 13:16:54 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application GATEWAY-SERVICE with eureka with status UP
+2025-04-20 13:16:54 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1745129814543, current=UP, previous=STARTING]
+2025-04-20 13:16:54 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060: registering service...
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE applying {pattern=/DEPARTMENT-SERVICE/**} to Path
+2025-04-20 13:16:54 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE
+2025-04-20 13:16:54 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE applying filter {regexp=/DEPARTMENT-SERVICE/?(?<remaining>.*), replacement=/${remaining}} to RewritePath
+2025-04-20 13:16:54 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.198.128:gateway-service:8060, appName = GATEWAY-SERVICE, hostName = 192.168.198.128, status = UP, ipAddr = 192.168.198.128, port = 8060, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@66df75b] as "application/json"
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_GATEWAY-SERVICE applying {pattern=/GATEWAY-SERVICE/**} to Path
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_GATEWAY-SERVICE applying filter {regexp=/GATEWAY-SERVICE/?(?<remaining>.*), replacement=/${remaining}} to RewritePath
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: ReactiveCompositeDiscoveryClient_GATEWAY-SERVICE
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition employee-service applying {_genkey_0=/employee/**} to Path
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition employee-service applying filter {_genkey_0=/employee/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: employee-service
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition department-service applying {_genkey_0=/department/**} to Path
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition department-service applying filter {_genkey_0=/department/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: department-service
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition organization-service applying {_genkey_0=/organization/**} to Path
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition organization-service applying filter {_genkey_0=/organization/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: organization-service
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition openapi applying {_genkey_0=/v3/api-docs/**} to Path
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition openapi applying filter {_genkey_0=/v3/api-docs/(?<path>.*), _genkey_1=/$\{path}/v3/api-docs} to RewritePath
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: openapi
+2025-04-20 13:16:54 [main] DEBUG org.springframework.cloud.gateway.filter.GatewayMetricsFilter - New routes count: 6
+2025-04-20 13:16:54 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8060"]
+2025-04-20 13:16:54 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Response 204 NO_CONTENT
+2025-04-20 13:16:54 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - registration status: 204
+2025-04-20 13:16:54 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Unregistering application GATEWAY-SERVICE with eureka with status DOWN
+2025-04-20 13:16:54 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1745129814592, current=DOWN, previous=UP]
+2025-04-20 13:16:54 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060: registering service...
+2025-04-20 13:16:54 [main] WARN  org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-04-20 13:16:54 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE
+2025-04-20 13:16:54 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:16:54 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.198.128:gateway-service:8060, appName = GATEWAY-SERVICE, hostName = 192.168.198.128, status = DOWN, ipAddr = 192.168.198.128, port = 8060, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@66df75b] as "application/json"
+2025-04-20 13:16:54 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Response 204 NO_CONTENT
+2025-04-20 13:16:54 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - registration status: 204
+2025-04-20 13:16:54 [main] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-20 13:16:57 [main] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-20 13:16:57 [main] DEBUG org.springframework.web.client.RestTemplate - HTTP DELETE http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE/192.168.198.128:gateway-service:8060
+2025-04-20 13:16:57 [main] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:16:57 [main] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-04-20 13:16:57 [main] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - deregister  status: 200
+2025-04-20 13:16:57 [main] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m              [2m (v3.4.3)[0;39m
+
+2025-04-20 13:17:02 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-20 13:17:02 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-20 13:17:02 [main] INFO  pl.piomin.services.gateway.GatewayApplication - Starting GatewayApplication v1.1-SNAPSHOT using Java 22 with PID 77903 (/opt/app/gateway-svc/lib/gateway-service-1.1-SNAPSHOT.jar started by root in /opt/app/gateway-svc)
+2025-04-20 13:17:02 [main] INFO  pl.piomin.services.gateway.GatewayApplication - Starting GatewayApplication v1.1-SNAPSHOT using Java 22 with PID 77903 (/opt/app/gateway-svc/lib/gateway-service-1.1-SNAPSHOT.jar started by root in /opt/app/gateway-svc)
+2025-04-20 13:17:02 [main] INFO  pl.piomin.services.gateway.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-20 13:17:02 [main] INFO  pl.piomin.services.gateway.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-20 13:17:02 [main] INFO  org.springframework.cloud.config.client.ConfigServerConfigDataLoader - Fetching config from server at : http://localhost:8088
+2025-04-20 13:17:02 [main] INFO  org.springframework.cloud.config.client.ConfigServerConfigDataLoader - Fetching config from server at : http://localhost:8088
+2025-04-20 13:17:02 [main] INFO  org.springframework.cloud.config.client.ConfigServerConfigDataLoader - Located environment: name=gateway-service, profiles=[default], label=null, version=null, state=null
+2025-04-20 13:17:02 [main] INFO  org.springframework.cloud.config.client.ConfigServerConfigDataLoader - Located environment: name=gateway-service, profiles=[default], label=null, version=null, state=null
+2025-04-20 13:17:03 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=5229a6a9-c0df-34e3-8706-16a43a883454
+2025-04-20 13:17:03 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=5229a6a9-c0df-34e3-8706-16a43a883454
+2025-04-20 13:17:03 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8060 (http)
+2025-04-20 13:17:03 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8060 (http)
+2025-04-20 13:17:03 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8060"]
+2025-04-20 13:17:03 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8060"]
+2025-04-20 13:17:03 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-20 13:17:03 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-20 13:17:03 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20 13:17:03 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20 13:17:03 [main] DEBUG org.springframework.cloud.gateway.config.GatewayProperties - Routes supplied from Gateway Properties: [RouteDefinition{id='employee-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/employee/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/employee/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://employee-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='department-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/department/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/department/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://department-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='organization-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/organization/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/organization/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://organization-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='openapi', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/v3/api-docs/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/v3/api-docs/(?<path>.*), _genkey_1=/$\{path}/v3/api-docs}}], uri=http://localhost:8060, order=0, metadata={}, enabled=true}]
+2025-04-20 13:17:03 [main] DEBUG org.springframework.cloud.gateway.config.GatewayProperties - Routes supplied from Gateway Properties: [RouteDefinition{id='employee-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/employee/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/employee/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://employee-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='department-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/department/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/department/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://department-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='organization-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/organization/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/organization/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://organization-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='openapi', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/v3/api-docs/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/v3/api-docs/(?<path>.*), _genkey_1=/$\{path}/v3/api-docs}}], uri=http://localhost:8060, order=0, metadata={}, enabled=true}]
+2025-04-20 13:17:03 [main] INFO  org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-20 13:17:03 [main] INFO  org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-20 13:17:03 [main] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-20 13:17:03 [main] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-20 13:17:03 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://192.168.198.128:8061/eureka/apps/
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://192.168.198.128:8061/eureka/apps/
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-04-20 13:17:04 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-20 13:17:04 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-20 13:17:04 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-20 13:17:04 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-20 13:17:04 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-20 13:17:04 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-20 13:17:04 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1745129824121 with initial instances count: 2
+2025-04-20 13:17:04 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1745129824121 with initial instances count: 2
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-04-20 13:17:04 [main] WARN  org.springframework.web.reactive.resource.ResourceHandlerUtils - Appended trailing slash to static resource location: classpath:/META-INF/resources/webjars/swagger-ui/5.18.3/
+2025-04-20 13:17:04 [main] WARN  org.springframework.web.reactive.resource.ResourceHandlerUtils - Appended trailing slash to static resource location: classpath:/META-INF/resources/webjars/swagger-ui/5.18.3/
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2025-04-20 13:17:04 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-20 13:17:04 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 @ExceptionHandler
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 @ExceptionHandler
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-04-20 13:17:04 [main] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-04-20 13:17:04 [main] WARN  org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-20 13:17:04 [main] WARN  org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application GATEWAY-SERVICE with eureka with status UP
+2025-04-20 13:17:04 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application GATEWAY-SERVICE with eureka with status UP
+2025-04-20 13:17:04 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1745129824982, current=UP, previous=STARTING]
+2025-04-20 13:17:04 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1745129824982, current=UP, previous=STARTING]
+2025-04-20 13:17:04 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060: registering service...
+2025-04-20 13:17:04 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060: registering service...
+2025-04-20 13:17:04 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE applying {pattern=/DEPARTMENT-SERVICE/**} to Path
+2025-04-20 13:17:04 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE applying {pattern=/DEPARTMENT-SERVICE/**} to Path
+2025-04-20 13:17:04 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE
+2025-04-20 13:17:04 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE
+2025-04-20 13:17:04 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:17:04 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE applying filter {regexp=/DEPARTMENT-SERVICE/?(?<remaining>.*), replacement=/${remaining}} to RewritePath
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE applying filter {regexp=/DEPARTMENT-SERVICE/?(?<remaining>.*), replacement=/${remaining}} to RewritePath
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition employee-service applying {_genkey_0=/employee/**} to Path
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition employee-service applying {_genkey_0=/employee/**} to Path
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition employee-service applying filter {_genkey_0=/employee/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition employee-service applying filter {_genkey_0=/employee/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: employee-service
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: employee-service
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition department-service applying {_genkey_0=/department/**} to Path
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition department-service applying {_genkey_0=/department/**} to Path
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition department-service applying filter {_genkey_0=/department/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition department-service applying filter {_genkey_0=/department/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: department-service
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: department-service
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition organization-service applying {_genkey_0=/organization/**} to Path
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition organization-service applying {_genkey_0=/organization/**} to Path
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition organization-service applying filter {_genkey_0=/organization/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition organization-service applying filter {_genkey_0=/organization/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: organization-service
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: organization-service
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition openapi applying {_genkey_0=/v3/api-docs/**} to Path
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition openapi applying {_genkey_0=/v3/api-docs/**} to Path
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition openapi applying filter {_genkey_0=/v3/api-docs/(?<path>.*), _genkey_1=/$\{path}/v3/api-docs} to RewritePath
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition openapi applying filter {_genkey_0=/v3/api-docs/(?<path>.*), _genkey_1=/$\{path}/v3/api-docs} to RewritePath
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: openapi
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: openapi
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.filter.GatewayMetricsFilter - New routes count: 5
+2025-04-20 13:17:05 [main] DEBUG org.springframework.cloud.gateway.filter.GatewayMetricsFilter - New routes count: 5
+2025-04-20 13:17:05 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8060"]
+2025-04-20 13:17:05 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8060"]
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.198.128:gateway-service:8060, appName = GATEWAY-SERVICE, hostName = 192.168.198.128, status = UP, ipAddr = 192.168.198.128, port = 8060, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@fcc6765] as "application/json"
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.198.128:gateway-service:8060, appName = GATEWAY-SERVICE, hostName = 192.168.198.128, status = UP, ipAddr = 192.168.198.128, port = 8060, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@fcc6765] as "application/json"
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Response 204 NO_CONTENT
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Response 204 NO_CONTENT
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - registration status: 204
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - registration status: 204
+2025-04-20 13:17:05 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Unregistering application GATEWAY-SERVICE with eureka with status DOWN
+2025-04-20 13:17:05 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Unregistering application GATEWAY-SERVICE with eureka with status DOWN
+2025-04-20 13:17:05 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1745129825080, current=DOWN, previous=UP]
+2025-04-20 13:17:05 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1745129825080, current=DOWN, previous=UP]
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060: registering service...
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060: registering service...
+2025-04-20 13:17:05 [main] WARN  org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE
+2025-04-20 13:17:05 [main] WARN  org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.198.128:gateway-service:8060, appName = GATEWAY-SERVICE, hostName = 192.168.198.128, status = DOWN, ipAddr = 192.168.198.128, port = 8060, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@fcc6765] as "application/json"
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.198.128:gateway-service:8060, appName = GATEWAY-SERVICE, hostName = 192.168.198.128, status = DOWN, ipAddr = 192.168.198.128, port = 8060, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@fcc6765] as "application/json"
+2025-04-20 13:17:05 [main] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-20 13:17:05 [main] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Response 204 NO_CONTENT
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Response 204 NO_CONTENT
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - registration status: 204
+2025-04-20 13:17:05 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - registration status: 204
+2025-04-20 13:17:05 [main] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-20 13:17:05 [main] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-20 13:17:05 [main] DEBUG org.springframework.web.client.RestTemplate - HTTP DELETE http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE/192.168.198.128:gateway-service:8060
+2025-04-20 13:17:05 [main] DEBUG org.springframework.web.client.RestTemplate - HTTP DELETE http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE/192.168.198.128:gateway-service:8060
+2025-04-20 13:17:05 [main] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:17:05 [main] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:17:05 [main] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-04-20 13:17:05 [main] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-04-20 13:17:05 [main] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - deregister  status: 200
+2025-04-20 13:17:05 [main] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - deregister  status: 200
+2025-04-20 13:17:05 [main] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-20 13:17:05 [main] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-20 13:17:05 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-20 13:17:05 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-20 13:17:05 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8060 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8060 or configure this application to listen on another port.
+
+2025-04-20 13:17:05 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8060 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8060 or configure this application to listen on another port.
+
+2025-04-20 13:17:49 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-20 13:17:49 [main] INFO  pl.piomin.services.gateway.GatewayApplication - Starting GatewayApplication v1.1-SNAPSHOT using Java 22 with PID 78289 (/opt/app/gateway-svc/lib/gateway-service-1.1-SNAPSHOT.jar started by root in /opt/app/gateway-svc)
+2025-04-20 13:17:49 [main] INFO  pl.piomin.services.gateway.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-20 13:17:50 [main] INFO  org.springframework.cloud.config.client.ConfigServerConfigDataLoader - Fetching config from server at : http://localhost:8088
+2025-04-20 13:17:50 [main] INFO  org.springframework.cloud.config.client.ConfigServerConfigDataLoader - Located environment: name=gateway-service, profiles=[default], label=null, version=null, state=null
+2025-04-20 13:17:50 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=5229a6a9-c0df-34e3-8706-16a43a883454
+2025-04-20 13:17:51 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8060 (http)
+2025-04-20 13:17:51 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8060"]
+2025-04-20 13:17:51 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-20 13:17:51 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20 13:17:51 [main] DEBUG org.springframework.cloud.gateway.config.GatewayProperties - Routes supplied from Gateway Properties: [RouteDefinition{id='employee-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/employee/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/employee/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://employee-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='department-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/department/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/department/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://department-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='organization-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/organization/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/organization/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://organization-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='openapi', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/v3/api-docs/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/v3/api-docs/(?<path>.*), _genkey_1=/$\{path}/v3/api-docs}}], uri=http://localhost:8060, order=0, metadata={}, enabled=true}]
+2025-04-20 13:17:51 [main] INFO  org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-20 13:17:51 [main] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-20 13:17:51 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-20 13:17:51 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-20 13:17:51 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-20 13:17:51 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-20 13:17:51 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-20 13:17:51 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-20 13:17:51 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-20 13:17:51 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-20 13:17:51 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-20 13:17:51 [main] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://192.168.198.128:8061/eureka/apps/
+2025-04-20 13:17:51 [main] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:17:51 [main] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-04-20 13:17:51 [main] DEBUG org.springframework.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-04-20 13:17:51 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-20 13:17:51 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-20 13:17:51 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-20 13:17:51 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1745129871739 with initial instances count: 3
+2025-04-20 13:17:52 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2025-04-20 13:17:52 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2025-04-20 13:17:52 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2025-04-20 13:17:52 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2025-04-20 13:17:52 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2025-04-20 13:17:52 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2025-04-20 13:17:52 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2025-04-20 13:17:52 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2025-04-20 13:17:52 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2025-04-20 13:17:52 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2025-04-20 13:17:52 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2025-04-20 13:17:52 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-04-20 13:17:52 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2025-04-20 13:17:52 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-04-20 13:17:52 [main] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-04-20 13:17:52 [main] WARN  org.springframework.web.reactive.resource.ResourceHandlerUtils - Appended trailing slash to static resource location: classpath:/META-INF/resources/webjars/swagger-ui/5.18.3/
+2025-04-20 13:17:52 [main] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2025-04-20 13:17:52 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-20 13:17:52 [main] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 @ExceptionHandler
+2025-04-20 13:17:52 [main] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-04-20 13:17:52 [main] WARN  org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-20 13:17:52 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application GATEWAY-SERVICE with eureka with status UP
+2025-04-20 13:17:52 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1745129872947, current=UP, previous=STARTING]
+2025-04-20 13:17:52 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060: registering service...
+2025-04-20 13:17:52 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE applying {pattern=/DEPARTMENT-SERVICE/**} to Path
+2025-04-20 13:17:52 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE
+2025-04-20 13:17:52 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:17:52 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE applying filter {regexp=/DEPARTMENT-SERVICE/?(?<remaining>.*), replacement=/${remaining}} to RewritePath
+2025-04-20 13:17:52 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE
+2025-04-20 13:17:52 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_GATEWAY-SERVICE applying {pattern=/GATEWAY-SERVICE/**} to Path
+2025-04-20 13:17:52 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.198.128:gateway-service:8060, appName = GATEWAY-SERVICE, hostName = 192.168.198.128, status = UP, ipAddr = 192.168.198.128, port = 8060, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@6a85ffff] as "application/json"
+2025-04-20 13:17:53 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_GATEWAY-SERVICE applying filter {regexp=/GATEWAY-SERVICE/?(?<remaining>.*), replacement=/${remaining}} to RewritePath
+2025-04-20 13:17:53 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: ReactiveCompositeDiscoveryClient_GATEWAY-SERVICE
+2025-04-20 13:17:53 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition employee-service applying {_genkey_0=/employee/**} to Path
+2025-04-20 13:17:53 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition employee-service applying filter {_genkey_0=/employee/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:17:53 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: employee-service
+2025-04-20 13:17:53 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition department-service applying {_genkey_0=/department/**} to Path
+2025-04-20 13:17:53 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition department-service applying filter {_genkey_0=/department/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:17:53 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: department-service
+2025-04-20 13:17:53 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition organization-service applying {_genkey_0=/organization/**} to Path
+2025-04-20 13:17:53 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition organization-service applying filter {_genkey_0=/organization/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:17:53 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: organization-service
+2025-04-20 13:17:53 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition openapi applying {_genkey_0=/v3/api-docs/**} to Path
+2025-04-20 13:17:53 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition openapi applying filter {_genkey_0=/v3/api-docs/(?<path>.*), _genkey_1=/$\{path}/v3/api-docs} to RewritePath
+2025-04-20 13:17:53 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: openapi
+2025-04-20 13:17:53 [main] DEBUG org.springframework.cloud.gateway.filter.GatewayMetricsFilter - New routes count: 6
+2025-04-20 13:17:53 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8060"]
+2025-04-20 13:17:53 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Unregistering application GATEWAY-SERVICE with eureka with status DOWN
+2025-04-20 13:17:53 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1745129873036, current=DOWN, previous=UP]
+2025-04-20 13:17:53 [main] WARN  org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-04-20 13:17:53 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Response 204 NO_CONTENT
+2025-04-20 13:17:53 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - registration status: 204
+2025-04-20 13:17:53 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060: registering service...
+2025-04-20 13:17:53 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE
+2025-04-20 13:17:53 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:17:53 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.198.128:gateway-service:8060, appName = GATEWAY-SERVICE, hostName = 192.168.198.128, status = DOWN, ipAddr = 192.168.198.128, port = 8060, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@6a85ffff] as "application/json"
+2025-04-20 13:17:53 [main] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-20 13:17:53 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Response 204 NO_CONTENT
+2025-04-20 13:17:53 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - registration status: 204
+2025-04-20 13:17:53 [main] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-20 13:17:53 [main] DEBUG org.springframework.web.client.RestTemplate - HTTP DELETE http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE/192.168.198.128:gateway-service:8060
+2025-04-20 13:17:53 [main] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:17:53 [main] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-04-20 13:17:53 [main] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - deregister  status: 200
+2025-04-20 13:17:53 [main] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-20 13:17:53 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-20 13:17:53 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8060 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8060 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m              [2m (v3.4.3)[0;39m
+
+2025-04-20 13:45:14 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-20 13:45:14 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-20 13:45:14 [main] INFO  pl.piomin.services.gateway.GatewayApplication - Starting GatewayApplication v1.1-SNAPSHOT using Java 22 with PID 90102 (/opt/app/gateway-svc/lib/gateway-service-1.1-SNAPSHOT.jar started by root in /opt/app/gateway-svc)
+2025-04-20 13:45:14 [main] INFO  pl.piomin.services.gateway.GatewayApplication - Starting GatewayApplication v1.1-SNAPSHOT using Java 22 with PID 90102 (/opt/app/gateway-svc/lib/gateway-service-1.1-SNAPSHOT.jar started by root in /opt/app/gateway-svc)
+2025-04-20 13:45:14 [main] INFO  pl.piomin.services.gateway.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-20 13:45:14 [main] INFO  pl.piomin.services.gateway.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-20 13:45:14 [main] INFO  org.springframework.cloud.config.client.ConfigServerConfigDataLoader - Fetching config from server at : http://localhost:8088
+2025-04-20 13:45:14 [main] INFO  org.springframework.cloud.config.client.ConfigServerConfigDataLoader - Fetching config from server at : http://localhost:8088
+2025-04-20 13:45:14 [main] INFO  org.springframework.cloud.config.client.ConfigServerConfigDataLoader - Located environment: name=gateway-service, profiles=[default], label=null, version=null, state=null
+2025-04-20 13:45:14 [main] INFO  org.springframework.cloud.config.client.ConfigServerConfigDataLoader - Located environment: name=gateway-service, profiles=[default], label=null, version=null, state=null
+2025-04-20 13:45:15 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=5229a6a9-c0df-34e3-8706-16a43a883454
+2025-04-20 13:45:15 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=5229a6a9-c0df-34e3-8706-16a43a883454
+2025-04-20 13:45:15 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8060 (http)
+2025-04-20 13:45:15 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8060 (http)
+2025-04-20 13:45:15 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8060"]
+2025-04-20 13:45:15 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8060"]
+2025-04-20 13:45:15 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-20 13:45:15 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-20 13:45:15 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20 13:45:15 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-20 13:45:15 [main] DEBUG org.springframework.cloud.gateway.config.GatewayProperties - Routes supplied from Gateway Properties: [RouteDefinition{id='employee-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/employee/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/employee/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://employee-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='department-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/department/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/department/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://department-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='organization-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/organization/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/organization/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://organization-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='openapi', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/v3/api-docs/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/v3/api-docs/(?<path>.*), _genkey_1=/$\{path}/v3/api-docs}}], uri=http://localhost:8060, order=0, metadata={}, enabled=true}]
+2025-04-20 13:45:15 [main] DEBUG org.springframework.cloud.gateway.config.GatewayProperties - Routes supplied from Gateway Properties: [RouteDefinition{id='employee-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/employee/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/employee/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://employee-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='department-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/department/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/department/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://department-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='organization-service', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/organization/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/organization/(?<path>.*), _genkey_1=/$\{path}}}], uri=lb://organization-service, order=0, metadata={}, enabled=true}, RouteDefinition{id='openapi', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/v3/api-docs/**}}], filters=[FilterDefinition{name='RewritePath', args={_genkey_0=/v3/api-docs/(?<path>.*), _genkey_1=/$\{path}/v3/api-docs}}], uri=http://localhost:8060, order=0, metadata={}, enabled=true}]
+2025-04-20 13:45:15 [main] INFO  org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-20 13:45:15 [main] INFO  org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-20 13:45:15 [main] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-20 13:45:15 [main] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-20 13:45:15 [main] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://192.168.198.128:8061/eureka/apps/
+2025-04-20 13:45:15 [main] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://192.168.198.128:8061/eureka/apps/
+2025-04-20 13:45:15 [main] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:45:15 [main] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:45:15 [main] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-04-20 13:45:15 [main] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-04-20 13:45:15 [main] DEBUG org.springframework.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-04-20 13:45:15 [main] DEBUG org.springframework.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-20 13:45:15 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-20 13:45:16 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1745131516000 with initial instances count: 3
+2025-04-20 13:45:16 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1745131516000 with initial instances count: 3
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-04-20 13:45:16 [main] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-04-20 13:45:16 [main] DEBUG org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-04-20 13:45:16 [main] WARN  org.springframework.web.reactive.resource.ResourceHandlerUtils - Appended trailing slash to static resource location: classpath:/META-INF/resources/webjars/swagger-ui/5.18.3/
+2025-04-20 13:45:16 [main] WARN  org.springframework.web.reactive.resource.ResourceHandlerUtils - Appended trailing slash to static resource location: classpath:/META-INF/resources/webjars/swagger-ui/5.18.3/
+2025-04-20 13:45:16 [main] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2025-04-20 13:45:16 [main] DEBUG org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2025-04-20 13:45:16 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-20 13:45:16 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-04-20 13:45:16 [main] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 @ExceptionHandler
+2025-04-20 13:45:16 [main] DEBUG org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 @ExceptionHandler
+2025-04-20 13:45:16 [main] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-04-20 13:45:16 [main] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-04-20 13:45:16 [main] WARN  org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-20 13:45:16 [main] WARN  org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application GATEWAY-SERVICE with eureka with status UP
+2025-04-20 13:45:16 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application GATEWAY-SERVICE with eureka with status UP
+2025-04-20 13:45:16 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1745131516975, current=UP, previous=STARTING]
+2025-04-20 13:45:16 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1745131516975, current=UP, previous=STARTING]
+2025-04-20 13:45:16 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE applying {pattern=/DEPARTMENT-SERVICE/**} to Path
+2025-04-20 13:45:16 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE applying {pattern=/DEPARTMENT-SERVICE/**} to Path
+2025-04-20 13:45:16 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060: registering service...
+2025-04-20 13:45:16 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060: registering service...
+2025-04-20 13:45:16 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE
+2025-04-20 13:45:16 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE
+2025-04-20 13:45:16 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:45:16 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:45:16 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE applying filter {regexp=/DEPARTMENT-SERVICE/?(?<remaining>.*), replacement=/${remaining}} to RewritePath
+2025-04-20 13:45:16 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE applying filter {regexp=/DEPARTMENT-SERVICE/?(?<remaining>.*), replacement=/${remaining}} to RewritePath
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: ReactiveCompositeDiscoveryClient_DEPARTMENT-SERVICE
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_GATEWAY-SERVICE applying {pattern=/GATEWAY-SERVICE/**} to Path
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_GATEWAY-SERVICE applying {pattern=/GATEWAY-SERVICE/**} to Path
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_GATEWAY-SERVICE applying filter {regexp=/GATEWAY-SERVICE/?(?<remaining>.*), replacement=/${remaining}} to RewritePath
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition ReactiveCompositeDiscoveryClient_GATEWAY-SERVICE applying filter {regexp=/GATEWAY-SERVICE/?(?<remaining>.*), replacement=/${remaining}} to RewritePath
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: ReactiveCompositeDiscoveryClient_GATEWAY-SERVICE
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: ReactiveCompositeDiscoveryClient_GATEWAY-SERVICE
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition employee-service applying {_genkey_0=/employee/**} to Path
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition employee-service applying {_genkey_0=/employee/**} to Path
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition employee-service applying filter {_genkey_0=/employee/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition employee-service applying filter {_genkey_0=/employee/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: employee-service
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: employee-service
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition department-service applying {_genkey_0=/department/**} to Path
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition department-service applying {_genkey_0=/department/**} to Path
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition department-service applying filter {_genkey_0=/department/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition department-service applying filter {_genkey_0=/department/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: department-service
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: department-service
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition organization-service applying {_genkey_0=/organization/**} to Path
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition organization-service applying {_genkey_0=/organization/**} to Path
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition organization-service applying filter {_genkey_0=/organization/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition organization-service applying filter {_genkey_0=/organization/(?<path>.*), _genkey_1=/$\{path}} to RewritePath
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: organization-service
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: organization-service
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition openapi applying {_genkey_0=/v3/api-docs/**} to Path
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition openapi applying {_genkey_0=/v3/api-docs/**} to Path
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition openapi applying filter {_genkey_0=/v3/api-docs/(?<path>.*), _genkey_1=/$\{path}/v3/api-docs} to RewritePath
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition openapi applying filter {_genkey_0=/v3/api-docs/(?<path>.*), _genkey_1=/$\{path}/v3/api-docs} to RewritePath
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: openapi
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator - RouteDefinition matched: openapi
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.filter.GatewayMetricsFilter - New routes count: 6
+2025-04-20 13:45:17 [main] DEBUG org.springframework.cloud.gateway.filter.GatewayMetricsFilter - New routes count: 6
+2025-04-20 13:45:17 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8060"]
+2025-04-20 13:45:17 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8060"]
+2025-04-20 13:45:17 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Unregistering application GATEWAY-SERVICE with eureka with status DOWN
+2025-04-20 13:45:17 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Unregistering application GATEWAY-SERVICE with eureka with status DOWN
+2025-04-20 13:45:17 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1745131517043, current=DOWN, previous=UP]
+2025-04-20 13:45:17 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1745131517043, current=DOWN, previous=UP]
+2025-04-20 13:45:17 [main] WARN  org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-04-20 13:45:17 [main] WARN  org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.198.128:gateway-service:8060, appName = GATEWAY-SERVICE, hostName = 192.168.198.128, status = DOWN, ipAddr = 192.168.198.128, port = 8060, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@2bbf3081] as "application/json"
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.198.128:gateway-service:8060, appName = GATEWAY-SERVICE, hostName = 192.168.198.128, status = DOWN, ipAddr = 192.168.198.128, port = 8060, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@2bbf3081] as "application/json"
+2025-04-20 13:45:17 [main] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-20 13:45:17 [main] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Response 204 NO_CONTENT
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Response 204 NO_CONTENT
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - registration status: 204
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - registration status: 204
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060: registering service...
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060: registering service...
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.198.128:gateway-service:8060, appName = GATEWAY-SERVICE, hostName = 192.168.198.128, status = DOWN, ipAddr = 192.168.198.128, port = 8060, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@2bbf3081] as "application/json"
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Writing [InstanceInfo [instanceId = 192.168.198.128:gateway-service:8060, appName = GATEWAY-SERVICE, hostName = 192.168.198.128, status = DOWN, ipAddr = 192.168.198.128, port = 8060, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@2bbf3081] as "application/json"
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Response 204 NO_CONTENT
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] DEBUG org.springframework.web.client.RestTemplate - Response 204 NO_CONTENT
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - registration status: 204
+2025-04-20 13:45:17 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - registration status: 204
+2025-04-20 13:45:17 [main] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-20 13:45:17 [main] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-20 13:45:17 [main] DEBUG org.springframework.web.client.RestTemplate - HTTP DELETE http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE/192.168.198.128:gateway-service:8060
+2025-04-20 13:45:17 [main] DEBUG org.springframework.web.client.RestTemplate - HTTP DELETE http://192.168.198.128:8061/eureka/apps/GATEWAY-SERVICE/192.168.198.128:gateway-service:8060
+2025-04-20 13:45:17 [main] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:45:17 [main] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-04-20 13:45:17 [main] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-04-20 13:45:17 [main] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-04-20 13:45:17 [main] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - deregister  status: 200
+2025-04-20 13:45:17 [main] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GATEWAY-SERVICE/192.168.198.128:gateway-service:8060 - deregister  status: 200
+2025-04-20 13:45:17 [main] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-20 13:45:17 [main] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-20 13:45:17 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-20 13:45:17 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-20 13:45:17 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8060 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8060 or configure this application to listen on another port.
+
+2025-04-20 13:45:17 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8060 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8060 or configure this application to listen on another port.
+

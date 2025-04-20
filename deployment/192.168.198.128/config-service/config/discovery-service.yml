@@ -1,0 +1,35 @@
+server:
+  port: 8061
+
+eureka:
+  client:
+    healthcheck: true
+    enabled: true
+    register-with-eureka: false # Discovery service không cần tự đăng ký lên chính nó
+    fetch-registry: false # Không cần fetch danh sách service
+    service-url:
+      defaultZone: http://localhost:8061/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 30
+    lease-expiration-duration-in-seconds: 90
+    prefer-ip-address: true
+    hostname: 192.168.198.128
+  server:
+    nable-self-preservation: true  # Tắt bảo vệ, xoá service ngay khi mất kết nối
+    eviction-interval-timer-in-ms: 5000  # Kiểm tra xóa service mỗi 5 giây
+logging:
+  pattern:
+    console: "%clr(%d{yyyy-MM-dd HH:mm:ss}){blue} %clr(${LOG_LEVEL_PATTERN:-%5p}) %m%n"
+
+spring:
+  output:
+    ansi:
+      enabled: always
+
+management:
+  tracing.sampling.probability: 0.0
+  tracing.enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
